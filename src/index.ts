@@ -30,4 +30,4 @@ client.on(Constants.Events.MESSAGE_CREATE, (message) => {
   }
 })
 
-client.login(process.env.DISCORD_TOKEN)
+client.login(process.env.DISCORD_TOKEN).catch
